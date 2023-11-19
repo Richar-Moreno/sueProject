@@ -1,0 +1,72 @@
+/*Presentado por Juan Dnaiel Ramírez Mojica - juaramirezmo@unal.edu.co*/
+/*Ingeniería Industrial - UNiversidad Nacional de COlombia*/
+
+
+/*--------------------------------Estilos generales -----------------------------------------*/
+
+
+@charset "UTF-8";
+
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 120vh;
+    margin: 0;
+    text-align: center; /* Centra horizontalmente el texto */
+}
+
+
+
+h1 {
+    margin-bottom: 5%; /* Ajusta según sea necesario */
+}
+
+
+
+/**_______________________________________________________________________________________________________*/
+.Header{
+    width: 100%;
+}
+
+/*______________________________________________________________________________________________________*_/
+
+/* POWER APPS */
+
+/*
+.PowerAppSection {
+    width: 95%; /* Establece el ancho del elemento al 80% del contenedor padre */
+/*    margin: auto; /* Centra horizontalmente el elemento */
+/*   text-align: center; /* Centra el contenido del elemento horizontalmente */
+/*    padding-top: 2%; /* Agrega espacio en la parte superior del elemento */
+/*
+}
+*/
+
+.PowerAppSection {
+    width: 100%; /* Establece el ancho del elemento al 80% del contenedor padre */
+    height: auto;
+    margin: auto; /* Centra horizontalmente el elemento */
+    text-align: center; /* Centra el contenido del elemento horizontalmente */
+
+}
+
+iframe {
+    align-self: center;
+    align-items: center;
+    width: 80%; /* Ajusta el ancho según tus necesidades */
+    height: 95vh; /* Ajusta la altura según tus necesidades */
+    border: 0;
+    margin: 0 auto; /* Centra horizontalmente el iframe */
+}
+
+
+.Footer{
+    width: 100%; /* Establece el ancho del elemento al 80% del contenedor padre */
+    margin: auto; /* Centra horizontalmente el elemento */
+    text-align: center; /* Centra el contenido del elemento horizontalmente */
+    padding-top: 2%; /* Agrega espacio en la parte superior del elemento */
+}
